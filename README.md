@@ -18,4 +18,4 @@ Resource
 Language
 --------
 
-1. Java
+1. Python
