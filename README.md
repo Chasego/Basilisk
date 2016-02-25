@@ -16,10 +16,4 @@ R## Resource
 
 ## Language
 
-1. Python
-
-## Framework
-
-1. Django
-
-
+1. Java
