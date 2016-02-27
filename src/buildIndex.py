@@ -19,3 +19,12 @@ def process_files(filenames):
         f.close()
     return file_to_terms
         
+def index_one_file(termlist):
+    fileIndex = {}
+    for index, word in enumerate(termlist):
+        if word in fileIndex:
+            fileIndex[word].append(index)
+        else:
+            fileIndex[word] = [index]
+    return fileIndex
+            
